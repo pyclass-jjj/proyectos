@@ -12,7 +12,7 @@ class COVID:
 
     def descarga_datos(self):
 
-        hoy = datetime.now() - timedelta(0)
+        hoy = datetime.now() - timedelta(1)
         fecha = hoy.strftime("%Y%m%d")
         file_confirmados = f'Casos_Diarios_Estado_Nacional_Confirmados_{fecha}.csv'
         file_defunciones = f'Casos_Diarios_Estado_Nacional_Defunciones_{fecha}.csv'
